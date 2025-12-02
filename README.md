@@ -286,6 +286,4 @@ MIT License - Feel free to use for personal or commercial projects
 - [ ] Custom mood creation
 - [ ] Batch processing
 
----
 
-**Built with ❤️ using modern AI and web technologies**
