@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+pillow
+pandas
+fastapi
+uvicorn
+python-multipart
+scikit-learn
+accelerate
+kagglehub

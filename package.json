@@ -1,0 +1,23 @@
+{
+    "name": "ai-caption-studio",
+    "version": "1.0.0",
+    "description": "AI-powered style-controlled image captioning application",
+    "main": "index.js",
+    "scripts": {
+        "install-all": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+        "dev": "concurrently \"cd backend && python app.py\" \"cd frontend && npm run dev\"",
+        "setup": "cd backend && python create_dummy_data.py",
+        "augment": "cd backend && python augment_captions.py",
+        "train": "cd backend && python train.py"
+    },
+    "keywords": [
+        "ai",
+        "image-captioning",
+        "clip",
+        "gpt2",
+        "transformers",
+        "react"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
